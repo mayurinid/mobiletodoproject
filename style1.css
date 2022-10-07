@@ -1,0 +1,216 @@
+.container{
+    position: relative;
+width: 200vh;
+height: 200vh;
+background-color:#EDEDED;
+}
+.header{
+   position: absolute;
+  
+    width: 200vh;
+    height: 60px;
+    font-size: 26px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    opacity: 1;
+    }
+    p{
+        margin:10px;
+        padding:10px;
+        }
+    .sp2{
+        color: #00A5EC;
+    }
+    .icon{
+        position: absolute;
+        border-radius: 50%;
+       margin:auto;
+        top: 10vh;
+    left: 45vw;
+    width: 45px;
+    height: 45px;
+    
+    background: #00A5EC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+    .plus{
+        position: absolute;
+        border-radius: 50%;
+        top: 10vh;
+        left: 46vw;
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+
+    color: white;
+    opacity: 1;
+    }
+    
+h1{
+    color:  #00A5EC;
+    font-weight: medium;
+    font-size: 24px;
+    line-height: 21px;
+    margin: 10px;
+    padding: 10px;
+ }
+ .checkbox{
+     text-decoration: line-through;
+    filter:grayscale(100%);
+       
+     
+     }
+ .visit{
+  margin-top:20px;
+  top: 261px;
+ left: 85px;
+ width: 92px;
+ height: 20px;
+ text-decoration: line-through;
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ /* UI Properties */
+ font: normal normal normal 16px/20px Inter;
+ letter-spacing: 21px;
+ color:#424242;
+ 
+ }
+ .shopping{
+     top: 261px;
+     left: 85px;
+     width: 92px;
+     height: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font: normal normal normal 16px/20px Inter;
+     letter-spacing: 0px;
+     color:#424242;
+ }
+ .flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+.rectangle1{
+    margin-top: 150px;
+    width: 280px;
+height: 250px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.rectangle2{
+    margin-top: 150px;
+    width: 280px;
+height: 250px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.rectangle3{
+    margin-top: 150px;
+    width: 280px;
+height: 250px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+
+
+.container{
+    filter: grayscale(100%);
+    opacity: 0.4;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+   }
+   a:visited{
+    text-decoration: none;
+    color: black;
+   }
+   a:active{
+    text-decoration: none;
+    color: black;
+   }
+
+.pic1box{
+
+    position: absolute;
+    top: 0px;
+left: 0px;
+width: 1300px;
+height: 1282px;
+bottom: 0;
+/* UI Properties */
+background: #000000 0% 0% no-repeat padding-box;
+opacity: 0.6;
+z-index: 1;
+}
+.pic2{
+    width: 340px;
+    height: 250px;
+    position: absolute;
+    top: 350px;
+  left: 490px;
+  bottom: 0;
+    /* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 20px #67676729;
+border: 1px solid #EDEDED;
+border-radius: 20px;
+opacity: 1;
+z-index: 1;
+
+}
+.p1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+}
+.p2{
+    position: absolute;
+     top: 0px;
+     left: 290px;
+       margin: 5px 5px 5px 5px;
+     font-weight: bold;
+     font-size: 30px;
+    
+    }
+    .input{
+       font-size: 20px;
+       font-weight: bold;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       justify-content: center;
+       justify-items: center;
+       padding-left: 10px;
+       padding-right: 50px;
+     margin: 50px 30px 40px 10px;
+     background-color:#9d8e8e1c;
+     
+      }
+      button{
+       padding-left: 10px;
+       margin:3px 30px 40px 200px;
+       text-align: left;
+   font: normal normal normal 18px/21px Inter;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   background-color: #00A5EC;
+   opacity: 1;
+      }
+      @media (min-width:320px) and (max-width:720px) {
+        .flexcontainer{
+            flex-direction: column;
+            justify-items: center;
+        }
+    }

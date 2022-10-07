@@ -1,0 +1,134 @@
+.container{
+    position: relative;
+width: 200vh;
+height: 200vh;
+background-color:#EDEDED;
+}
+.header{
+   position: absolute;
+  
+    width: 200vh;
+    height: 60px;
+    font-size: 26px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    opacity: 1;
+    }
+    p{
+        margin:10px;
+        padding:10px;
+        }
+    .sp2{
+        color: #00A5EC;
+    }
+    .icon{
+        position: absolute;
+        border-radius: 50%;
+       margin:auto;
+        top: 15vh;
+    left: 56vw;
+    width: 45px;
+    height: 45px;
+    
+    background: #00A5EC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+    .plus{
+        position: absolute;
+        border-radius: 50%;
+        top: 15vh;
+        left: 57vw;
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: bold;
+
+    color: white;
+    opacity: 1;
+    }
+    
+h1{
+    color:  #00A5EC;
+    font-weight: medium;
+    font-size: 24px;
+    line-height: 21px;
+    margin: 10px;
+    padding: 10px;
+ }
+ .checkbox{
+     text-decoration: line-through;
+    filter:grayscale(100%);
+       
+     
+     }
+ .visit{
+  margin-top:20px;
+  top: 261px;
+ left: 85px;
+ width: 92px;
+ height: 20px;
+ text-decoration: line-through;
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ /* UI Properties */
+ font: normal normal normal 16px/20px Inter;
+ letter-spacing: 21px;
+ color:#424242;
+ 
+ }
+ .shopping{
+     top: 261px;
+     left: 85px;
+     width: 92px;
+     height: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font: normal normal normal 16px/20px Inter;
+     letter-spacing: 0px;
+     color:#424242;
+ }
+ .flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+.rectangle1{
+    margin-top: 150px;
+    width: 280px;
+height: 250px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.back{
+    position: absolute;
+    top: 15vh;
+    left:30vw;
+    font-size: 28px;
+    color:black;
+  }
+
+a{
+    text-decoration: none;
+}
+
+
+a:link{    
+    color: black;
+    }
+    a:active{
+        color: black;
+    }
+    a:visited{
+        color: black; 
+    }
+
+    @media (min-width:320px) and (max-width:720px) {
+        .flexcontainer{
+            flex-direction: column;
+            justify-items: center;
+        }
+    }
+    
+    
